@@ -1,0 +1,19 @@
+# Self-Improving AI Agent — Python Dependencies
+# ===============================================
+#
+# CORE (no extra install needed — all built into Python 3.x):
+#   - re, os, sys, json, time, textwrap, argparse, datetime
+#
+# OPTIONAL — only needed for API mode:
+#   Install ONE of the following depending on your preferred API provider.
+
+# Option A: Anthropic Claude (recommended)
+# anthropic>=0.25.0
+
+# Option B: OpenAI
+# openai>=1.0.0
+
+# ── For Development / Testing ──────────────────────────────────────────────
+# pytest>=7.0.0       # For running unit tests
+# black>=23.0.0       # Code formatter
+# flake8>=6.0.0       # Linter
